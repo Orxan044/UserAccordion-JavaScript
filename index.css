@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.userItem {
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px lightgray;
+    gap: 10px;
+}
+
+.accordion-Icon{
+    margin-left: auto; 
+    font-size: 25px;
+    font-weight: 900;
+    color: gray;
+}
+
+.info-div{
+    margin-top: 20px;
+}
+
+.info-boss-text{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.info-texts{
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.info-geo{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
